@@ -1,0 +1,3 @@
+C:/Users/Kasal/Desktop/proje/build/CMakeFiles/ekran.dir
+C:/Users/Kasal/Desktop/proje/build/CMakeFiles/edit_cache.dir
+C:/Users/Kasal/Desktop/proje/build/CMakeFiles/rebuild_cache.dir

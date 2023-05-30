@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Kasal/Desktop/proje/build",
+  "command": "C:\\compilers\\mingw64\\bin\\g++.exe -DUNICODE -D_UNICODE @CMakeFiles/ekran.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\ekran.dir\\main.cpp.obj -c C:\\Users\\Kasal\\Desktop\\proje\\main.cpp",
+  "file": "C:/Users/Kasal/Desktop/proje/main.cpp",
+  "output": "CMakeFiles/ekran.dir/main.cpp.obj"
+}
+]

@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.23)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+project(ekran VERSION 1.0)
+
+set(wxWidgets_ROOT_DIR C:/Users/Kasal/Desktop/proje/wxWidgets)
+find_package(wxWidgets REQUIRED gl core base)
+
+add_executable(ekran main.cpp) 
+
+
+if(wxWidgets_FOUND)
+    include(${wxWidgets_USE_FILE})
+    target_include_directories(ekran PUBLIC ${wxWidgets_INCLUDE_DIRS})
+    target_compile_definitions(ekran PUBLIC ${wxWidgets_DEFINITIONS})
+    target_compile_options(ekran PRIVATE ${wxWidgets_CXX_FLAGS})
+    target_link_libraries(ekran ${wxWidgets_LIBRARIES})
+else()
+    message("wx not found")
+endif()
